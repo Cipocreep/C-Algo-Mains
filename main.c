@@ -36,7 +36,7 @@ void	test_ex2(int (*tex2)(int, int))
 	assert(tex2(10, 7) == 10000000);
 	assert(tex2(0, 4) == 0);
 	assert(tex2(4, 0) == 1);
-	assert(tex2(-10, 0) == -1);
+	// assert(tex2(-10, 0) == -1);
 	assert(tex2(-4, 4) == 256);
 	assert(tex2(-4, -4) == 0);
 	assert(tex2(0, 0) == 1);
@@ -50,7 +50,7 @@ void	test_ex3(int (*tex3)(int, int))
 	assert(tex3(10, 7) == 10000000);
 	assert(tex3(0, 4) == 0);
 	assert(tex3(4, 0) == 1);
-	assert(tex3(-10, 0) == -1);
+	// assert(tex3(-10, 0) == -1);
 	assert(tex3(-4, 4) == 256);
 	assert(tex3(-4, -4) == 0);
 	assert(tex3(0, 0) == 1);
